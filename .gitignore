@@ -1,0 +1,35 @@
+# Keil uVision user-specific files
+*.uvguix.*
+*.uvoptx
+*.uvopt
+*.bak
+*.Bak
+
+# Build output; keep the ready-to-flash firmware
+OBJ/*
+!OBJ/module1.hex
+
+# Keil generated folders
+USER/DebugConfig/
+USER/Listings/
+USER/RTE/
+USER/新建文件夹/
+
+# Compiler intermediates
+*.o
+*.d
+*.crf
+*.dep
+*.axf
+*.lnp
+*.map
+*.lst
+
+# Editor and operating-system files
+.vscode/
+.idea/
+*.code-workspace
+Thumbs.db
+Desktop.ini
+.DS_Store
+

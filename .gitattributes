@@ -1,0 +1,14 @@
+* text=auto
+
+*.c text eol=lf
+*.h text eol=lf
+*.md text eol=lf
+*.svg text eol=lf
+*.uvprojx text eol=crlf
+
+*.hex -text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.mp4 binary
